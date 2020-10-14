@@ -7,4 +7,5 @@ ADD $PWD $SOURCE_DIR
 RUN set -x \
     && cd $SOURCE_DIR \
     && npm install \
-    && rm package*.json
+    && rm package*.json \
+    && rm -rf /root/.npm
